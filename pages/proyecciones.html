@@ -18,20 +18,20 @@
        
         <!--link rel="stylesheet" href="css/estilos.css"-->
     </head>
-    
+
     <body>
-        <header>
+        <!-- <header>
             <div>
                 <img src="../img/Plafip.png" alt="logo Plafip" height="80px">
-                <!-- <h1>PlafiP</h1> -->
+                <h1>PlafiP</h1>
             </div>
             <div>
                 <iframe src="../layouts/navegacion.html" frameborder="1"
                     width="100%" height="50px"></iframe>
             </div>
             <hr>
-        </header>
-        <h1>Proyecciones y metas</h1>
+        </header> -->
+        <!-- <h1>Proyecciones y metas</h1>
         <div>            
             <h2>Movimientos mensuales proyectados</h2>
             <table>
@@ -91,6 +91,169 @@
         </div>
         <footer>
 
-        </footer>
+        </footer> -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">PlafiP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/iniciarSesion.html">Inicio de sesión</a>
+                </li>      
+                <li class="nav-item active">
+                    <a class="nav-link" href="../pages/Movimientos.html">Movimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/balance.html">Balance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/proyecciones.html">Proyecciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/educacionFinanciera.html">Educacion Financiera</a>
+                </li>
+              </ul>
+            </div>
+            
+        </nav>
+        <div class="jumbotron jumbotron-fluid bg-success text-white">
+            <div class="container">
+              <h1 class="display-4">PlaFiP</h1>
+              <p class="lead">Plataforam de Finanzas Personales</p>
+            </div>
+          </div>
+        
+          <div class="container">
+        
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+              </ol>
+            </nav>
+        
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="valoracion-pills-tab" data-toggle="pill" href="#pills-valoracion" role="tab" aria-controls="pills-valoracion" aria-selected="true">
+                  Valoración
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="tarjetas-pills-tab" data-toggle="pill" href="#pills-tarjetas" role="tab" aria-controls="pills-tarjetas" aria-selected="false">
+                  Tarjetas
+                </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="comentarios-pills-tab" data-toggle="pill" href="#pills-comentarios" role="tab" aria-controls="pills-comentarios" aria-selected="false">          
+                  Comentarios
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-valoracion" role="tabpanel" aria-labelledby="valoracion-pills-tab">
+                <div class="table-responsive">
+                  <table class="table table-striped table-bordered table-hover">
+                    <thead class="thead-light">
+                      <tr>
+                        <th scope="col"> Valoración</th>
+                        <th scope="col"> Bogota</th>
+                        <th scope="col"> Cucuta</th>
+                        <th scope="col"> Medellin</th>
+                        <th scope="col"> Cali</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th>
+                          <span class="material-icons pr-1"> add_shopping_cart </span>
+                        </th>
+                        <td>$ 15000</td>
+                        <td>$ 25000</td>
+                        <td>$ 35000</td>
+                        <td>$ 45000</td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <span class="material-icons pr-1"> add_shopping_cart </span>
+                          <span class="material-icons pr-1"> add_shopping_cart </span>
+                        </th>
+                        <td>$ 17000</td>
+                        <td>$ 27000</td>
+                        <td>$ 37000</td>
+                        <td>$ 47000</td>
+                      </tr>
+                      <tr>
+                        <th>
+                          <span class="material-icons pr-1"> add_shopping_cart </span>
+                          <span class="material-icons pr-1"> add_shopping_cart </span>
+                          <span class="material-icons pr-1"> add_shopping_cart </span>
+                        </th>
+                        <td>$ 19000</td>
+                        <td>$ 29000</td>
+                        <td>$ 39000</td>
+                        <td>$ 49000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 </div>      
+              </div>
+              <div class="tab-pane fade" id="pills-tarjetas" role="tabpanel" aria-labelledby="tarjetas-pills-tab">.
+                <div class="d-flex justify-content-center">
+                  <div class="card text-white bg-secondary">
+                    <div class="card-header">
+                      Tarjetas aceptadas
+                    </div>
+                    <ul class="list-group list-group-flush text-success">
+                      <li class="list-group-item"> Tarjeta Basica </li>
+                      <li class="list-group-item"> Tarjeta VIP </li>
+                      <li class="list-group-item"> Tarjeta Black </li>
+                    </ul>
+                  </div>
+                </div>
+        
+              </div>
+              <div class="tab-pane fade" id="pills-comentarios" role="tabpanel" aria-labelledby="comentarios-pills-tab">
+                Comentarios
+              </div>
+            </div>
+        
+        
+          </div>
+        
+          <footer> 
+            <div class="row">
+              <div class="col-md-4 d-flex flex-column mb-2 align-items-start">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+              </div>
+              <div class="col-sm-4 mb-2">
+                <address>
+                  <h3>Ubicación</h3>
+                  <p> <span class="material-icons"> copyright </span> Calle 4a #9-19 Colombia </p>
+                  <p> <span class="material-icons"> copyright </span> +57 3121234567 </p>
+                  <p> <span class="material-icons"> copyright </span> </span> hotelelgransalon@gmail.com </p>
+                </address>
+              </div>
+              <div class="col-sm-4 d-flex flex-column mb-2 align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Precios</a>
+                <a href="#">Terminos y condiciones</a>
+                <a href="#">Contacto</a>
+              </div>
+            </div>
+          </footer>
+        
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+          <script src="js/interactivo.js"></script>    
+
     </body>
 </html>

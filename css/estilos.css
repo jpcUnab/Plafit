@@ -4,18 +4,34 @@ th{
 
 footer{
     padding: 10px 10px 0 10px;
-    background-color: #28A745;
-    color: #fff;
+    /* background-color: #28A745; */
+    background-color: #9da19e;
+    /* color: #fff; */
     margin-top:10px;
     margin-bottom:0px;
     text-align: center;
+    font-size: xx-small;    
 }
 
 footer .row{
     margin-right: 0;
     margin-left: 0;
+    text-align: center;
 }
 
 footer a{
     color: white;
+}
+
+.mi-card-proyecciones{
+    flex: 1 370px;
+    margin-left: 0px;;
+    margin-top: 0px;
+}
+
+.mi-card-graphics{
+    flex: 1 500px;
+    margin-left: 8px;;
+    margin-top: 8px;
+    text-align: center;
 }

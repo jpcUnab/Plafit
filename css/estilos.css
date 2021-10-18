@@ -1,14 +1,41 @@
-th{
+*{
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 0px; 
+    font-family: 'Architects Daughter', cursive;
     text-align: center;
 }
+.menu-bar{
+    background: linear-gradient(to bottom, rgb(5, 129, 5), white)
+ }
+ .nav-link {
+    font-size:20px;
+    margin: 3px;
+    color:black;
+    font-weight:500;
+ }
+ .navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+ }
+ .menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+ }
+.mi-img-carrusel{
+    height:400px;
+    width: 100%;
+    object-fit: cover;
+ }
 
-footer{
+.footer{
+    background: linear-gradient(to bottom, #E9ECEF, rgb(85, 85, 85))
     padding: 10px 10px 0 10px;
-    /* background-color: #28A745; */
-    background-color: #9da19e;
-    /* color: #fff; */
-    margin-top:10px;
-    margin-bottom:0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: black 
+    font-family: 'Architects Daughter', cursive;
     text-align: center;
     font-size: xx-small;    
 }

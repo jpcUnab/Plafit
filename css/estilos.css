@@ -6,7 +6,7 @@
     text-align: center;
 }
 .menu-bar{
-    background: linear-gradient(to bottom, rgb(5, 129, 5), white)
+    background: linear-gradient(to bottom, rgb(5, 129, 5), white);
  }
  .nav-link {
     font-size:20px;
@@ -30,11 +30,11 @@
  }
 
 .footer{
-    background: linear-gradient(to bottom, #E9ECEF, rgb(85, 85, 85))
+    background: linear-gradient(to bottom, #E9ECEF, rgb(85, 85, 85));
     padding: 10px 10px 0 10px;
     margin-top: 10px;
     margin-bottom: 0px;
-    color: black 
+    color: black;
     font-family: 'Architects Daughter', cursive;
     text-align: center;
     font-size: xx-small;    
@@ -52,13 +52,13 @@ footer a{
 
 .mi-card-proyecciones{
     flex: 1 370px;
-    margin-left: 0px;;
+    margin-left: 0px;
     margin-top: 0px;
 }
 
 .mi-card-graphics{
     flex: 1 500px;
-    margin-left: 8px;;
+    margin-left: 8px;
     margin-top: 8px;
     text-align: center;
 }

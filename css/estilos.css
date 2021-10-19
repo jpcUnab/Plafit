@@ -1,6 +1,6 @@
 *{
-    padding: 10px 10px 0 10px;
-    margin-top: 10px;
+    padding: 0px 0px 0 0px;
+    margin-top: 0px;
     margin-bottom: 0px; 
     font-family: 'Architects Daughter', cursive;
     text-align: center;
@@ -37,7 +37,7 @@
     color: black;
     font-family: 'Architects Daughter', cursive;
     text-align: center;
-    font-size: xx-small;    
+    font-size: 10px;    
 }
 
 footer .row{

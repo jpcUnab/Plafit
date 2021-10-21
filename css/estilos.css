@@ -24,12 +24,12 @@
     border: none!important;
  }
 .mi-img-carrusel{
-    height:400px;
+    /* height:400px; */
     width: 100%;
     object-fit: cover;
  }
 
-.footer{
+footer{
     background: linear-gradient(to bottom, #E9ECEF, rgb(85, 85, 85));
     padding: 10px 10px 0 10px;
     margin-top: 10px;
@@ -50,6 +50,13 @@ footer a{
     color: white;
 }
 
+.mi-card-videos{
+    flex: 1 300px;
+    margin-left: 8px;
+    margin-top: 8px;
+    text-align: center;
+}
+
 .mi-card-proyecciones{
     flex: 1 370px;
     margin-left: 0px;
@@ -62,3 +69,5 @@ footer a{
     margin-top: 8px;
     text-align: center;
 }
+
+
